@@ -46,9 +46,3 @@
 .ant-table-tbody > tr:nth-child(2n) {
     background: #1a201f;
 }
-
-/**
- * icon font
- */
-
-.anticon-star:before { content: "\e63b"; }

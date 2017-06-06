@@ -11,7 +11,6 @@ module.exports = () => {
     'border-radius-base': '2px',
     'table-header-bg': '#000000',
     'primary-1': '#136c5e',
-    'table-padding-vertical': '8px',
-    '@icon-url': '"/dist/font/iconfont"'
+    'table-padding-vertical': '8px'
   };
 };
