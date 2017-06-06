@@ -1,0 +1,45 @@
+.chart-header {
+  display: flex;
+  margin: 10px 0 5px;
+  padding: 0 20px 0 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-toolbar {
+  .ant-checkbox-inner {
+    background-color: #9ba1a4;
+    border-color: transparent !important;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #e6891a;
+  }
+}
+
+.chart-legend {
+  font-size: 0;
+  padding: 2px 0;
+  li {
+    display: inline-block;
+    font-size: 0;
+    & + li {
+      margin-left: 10px;
+    }
+  }
+  .legend-shape,
+  .legend-name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .legend-shape {
+    height: 12px;
+    width: 12px;
+    border-radius: 2px;
+  }
+  .legend-name {
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 1;
+    color: #9ba1a4;
+  }
+}

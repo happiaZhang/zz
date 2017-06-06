@@ -1,0 +1,233 @@
+.wrapper {
+  padding: 8px;
+}
+.example {
+  width: 1000px;
+  margin: 0 auto;
+}
+.example .example-border {
+  border: 1px solid #242424;
+}
+.quote {
+  background: #0a0f0e;
+}
+.quote-header {
+  position: relative;
+  padding: 8px 16px;
+}
+.quote-header h4 {
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffebc8;
+}
+.quote-body {
+  padding: 8px 16px;
+}
+.quote-body .quote-label {
+  margin-bottom: 8px;
+  text-align: center;
+}
+.quote-body .quote-label > span {
+  display: inline-block;
+  min-width: 37px;
+  padding: 0 10px;
+  background: #1e2726;
+  border-radius: 40px;
+  font-size: 12px;
+  color: #ffebc8;
+  text-align: center;
+}
+.quote-body .quote-label > span + span {
+  margin-left: 8px;
+}
+.quote-body .quote-info {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+.quote-body .quote-info.taken {
+  background: #de871f;
+}
+.quote-body .quote-info.given {
+  background: #3274b3;
+}
+.quote-body .quote-info.trade {
+  background: #14843b;
+}
+.quote-body .quote-info.none {
+  background: #1e2726;
+}
+.quote-body .quote-info .quote-type {
+  font-size: 10px;
+  letter-spacing: 0.2px;
+}
+.quote-body .quote-info .quote-price {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+}
+.quote-body .quote-time {
+  text-align: center;
+}
+.quote-body .quote-time > label {
+  font-size: 10px;
+  color: #72787c;
+}
+.best-bid {
+  padding: 0 16px 16px;
+}
+.best-bid .ant-table-wrapper {
+  margin-top: 10px;
+}
+.best-bid .marked {
+  text-align: center;
+  cursor: pointer;
+}
+.best-bid .bond {
+  color: #f9c152;
+}
+.best-bid .bid {
+  color: #f29527;
+}
+.best-bid .ofr {
+  color: #52afe4;
+}
+.bid-title {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffebc8;
+  font-weight: 400;
+}
+.bid-tab {
+  margin-top: 15px;
+  background: #1e2726;
+  border-radius: 2px;
+  font-size: 0;
+}
+.bid-tab .bid-tab-item {
+  display: inline-block;
+  min-width: 76px;
+  padding: 0 2px;
+  color: #9ba1a4;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.bid-tab .bid-tab-item.active {
+  border-radius: 2px;
+  color: #ffebc8;
+}
+.bid-tab .bid-tab-item.active.ALL {
+  background: #0d7b7b;
+}
+.bid-tab .bid-tab-item.active.TP {
+  background: #326dc2;
+}
+.bid-tab .bid-tab-item.active.ICAP {
+  background: #d73247;
+}
+.bid-tab .bid-tab-item.active.PATR {
+  background: #d77916;
+}
+.bid-tab .bid-tab-item.active.BGC {
+  background: #29a25d;
+}
+.bid-tab .bid-tab-item.active.TJXT {
+  background: #8035b1;
+}
+.chart-header {
+  display: flex;
+  margin: 10px 0 5px;
+  padding: 0 20px 0 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-toolbar .ant-checkbox-inner {
+  background-color: #9ba1a4;
+  border-color: transparent !important;
+}
+.chart-toolbar .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #e6891a;
+}
+.chart-legend {
+  font-size: 0;
+  padding: 2px 0;
+}
+.chart-legend li {
+  display: inline-block;
+  font-size: 0;
+}
+.chart-legend li + li {
+  margin-left: 10px;
+}
+.chart-legend .legend-shape,
+.chart-legend .legend-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.chart-legend .legend-shape {
+  height: 12px;
+  width: 12px;
+  border-radius: 2px;
+}
+.chart-legend .legend-name {
+  margin-left: 5px;
+  font-size: 12px;
+  line-height: 1;
+  color: #9ba1a4;
+}
+.pie {
+  display: flex;
+  align-items: center;
+}
+.pie .pie-container {
+  position: relative;
+  flex: 1;
+}
+.pie .pie-addon {
+  padding-right: 15px;
+}
+.pie-container .pie-time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -9px;
+  color: #459898;
+}
+.legend-item {
+  font-size: 0;
+  margin: 4px 0 5px;
+}
+.legend-item > span {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.legend-item > span + span {
+  margin-left: 8px;
+}
+.legend-item .legend-shape {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+.legend-item .legend-name {
+  width: 55px;
+  color: #ffebc8;
+}
+.legend-item .legend-value {
+  width: 50px;
+  color: #bacdc9;
+}

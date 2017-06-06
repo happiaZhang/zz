@@ -1,0 +1,52 @@
+.pie {
+  display: flex;
+  align-items: center;
+  .pie-container {
+    position: relative;
+    flex: 1;
+  }
+  .pie-addon {
+    padding-right: 15px;
+  }
+}
+
+.pie-container {
+  .pie-time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -9px;
+    color: #459898
+  }
+}
+
+.legend-item {
+  font-size: 0;
+  margin: 4px 0 5px;
+  & > span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    & + span {
+      margin-left: 8px;
+    }
+  }
+  .legend-shape {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  .legend-name {
+    width: 55px;
+    color: #ffebc8;
+  }
+  .legend-value {
+    width: 50px;
+    color: #bacdc9;
+  }
+}
