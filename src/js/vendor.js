@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
 
 import {
   Table,
@@ -23,6 +28,9 @@ module.exports = {
   React,
   ReactDOM,
   PropTypes,
+  Router,
+  Route,
+  Link,
   Table,
   Icon,
   Checkbox,

@@ -21,19 +21,17 @@ class Main extends React.Component {
   render() {
     const {quotes} = this.props;
     return (
-      <div className='wrapper'>
-        <div className='example'>
-          <Row gutter={8}>
-            {quotes.map((quote, i) => {
-              return <Col key={i} span={6} className='example-border'><Quote quote={quote} /></Col>
-            })}
-            <Col className='example-border' span={12}><BestBid /></Col>
-            <Col className='example-border' span={12}>
-              <BarStack />
-              <Pie />
-            </Col>
-          </Row>
-        </div>
+      <div className='example'>
+        <Row gutter={8}>
+          {quotes.map((quote, i) => {
+            return <Col key={i} span={6} className='example-border'><Quote quote={quote} /></Col>
+          })}
+          <Col className='example-border' span={12}><BestBid /></Col>
+          <Col className='example-border' span={12}>
+            <BarStack />
+            <Pie />
+          </Col>
+        </Row>
       </div>
     )
   }
