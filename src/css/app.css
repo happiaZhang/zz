@@ -8,6 +8,9 @@
 .example .example-border {
   border: 1px solid #242424;
 }
+.example > h2 {
+  margin-bottom: 15px;
+}
 .quote {
   background: #0a0f0e;
 }
@@ -230,4 +233,10 @@
 .legend-item .legend-value {
   width: 50px;
   color: #bacdc9;
+}
+.inline-elm {
+  display: inline;
+  padding: 5px;
+  border: 1px solid red;
+  margin: 5px;
 }

@@ -1,13 +1,8 @@
 import {React, ReactDOM, Router, Route, Link} from './vendor';
 import Main from './Main';
+import About from './About';
 import '../css/base.css';
 import '../css/app.css';
-
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-);
 
 ReactDOM.render((
   <Router>
